@@ -1,7 +1,7 @@
 import { getServerSession } from 'next-auth'
 import authConfig from '@/config/auth'
 import TitleSection from '@/components/TitleSection'
-import { CatalogBox, CatalogСategories } from '@/components/Catalog'
+import { CatalogBox, CatalogCategories } from '@/components/Catalog'
 import { ICategories, ICategorySEO } from '@/models/ICategories'
 import { IProdustsList, PropertiesListFilterData } from '@/models/IProduct'
 import categoryService from '@/services/categoryService'
@@ -126,7 +126,7 @@ const ShopPage = async ({
                 title={title}
             />
             <article className="section-catalog-page box-content">
-                <CatalogСategories locale={locale} categories={categories} />
+                <CatalogCategories locale={locale} categories={categories} />
                 <CatalogBox
                     locale={locale}
                     propertyFilter={propertyFilter}

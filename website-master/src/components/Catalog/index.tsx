@@ -1,5 +1,5 @@
 import CatalogBox from './Categories/CatalogBox'
-import CatalogSubСategories from './Categories/CatalogSubСategories'
-import CatalogСategories from './Categories/CatalogСategories'
+import CatalogSubCategories from './Categories/CatalogSubCategories'
+import CatalogCategories from './Categories/CatalogCategories'
 
-export { CatalogСategories, CatalogBox, CatalogSubСategories }
+export { CatalogCategories, CatalogBox, CatalogSubCategories }

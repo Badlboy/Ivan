@@ -15,16 +15,9 @@ import React from 'react';
 import GoogleAnaliticHead from '@/components/GoogleAnaliticHead';
 import GoogleAnaliticBody from '@/components/GoogleAnaliticBody';
 import { UtmContextProvider } from '@/contexts/UtmContext';
+import { SITE_URL } from '@/http/axiosConfig';
 
-export async function generateMetadata() {
-    return {
-        htmlAttributes: {
-            lang: 'uk',
-        },
-    };
-}
-
-const RootLayout = React.memo(async ({
+const RootLayout = async ({
     children,
 }: Readonly<{ children: React.ReactNode }>) => {
     const [session, contact, categories, pageBrands] = await Promise.all([
@@ -36,21 +29,34 @@ const RootLayout = React.memo(async ({
 
     const locale = AllowedLangs.UK;
 
+    const siteUrl = SITE_URL || 'https://footballshop.com.ua';
+    const organizationSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        name: 'FOOTBALLSHOP',
+        url: siteUrl,
+        logo: siteUrl + '/image/Logo.png',
+        contactPoint: [
+            {
+                '@type': 'ContactPoint',
+                telephone: '+380687974646',
+                contactType: 'Customer Service',
+                areaServed: 'UA',
+                availableLanguage: ['Ukrainian', 'Russian', 'English'],
+            },
+            {
+                '@type': 'ContactPoint',
+                telephone: '+380937974646',
+                contactType: 'Customer Service',
+                areaServed: 'UA',
+                availableLanguage: ['Ukrainian', 'Russian', 'English'],
+            },
+        ],
+    };
+
     return (
         <html lang="uk">
             <head>
-                <link
-                    rel="preload"
-                    as="font"
-                    type="font/woff2"
-                    href="/_next/static/media/TTHoves-Regular.cce19915.woff2"
-                />
-                <link
-                    rel="preload"
-                    as="font"
-                    type="font/woff2"
-                    href="/_next/static/media/TTHoves-Medium.4abe38fa.woff2"
-                />
                 <GoogleAnaliticHead />
             </head>
             <body>
@@ -69,11 +75,17 @@ const RootLayout = React.memo(async ({
                             </Layout>
                         </CartProvider>
                     </UtmContextProvider>
+                    <script
+                        type="application/ld+json"
+                        dangerouslySetInnerHTML={{
+                            __html: JSON.stringify(organizationSchema),
+                        }}
+                    />
                     <CookieConsentBanner locale={locale} />
             </body>
         </html>
     );
-});
+};
 
 const fetchCategory = async (): Promise<ICategoriesLittle[]> => {
     try {
@@ -104,7 +116,5 @@ const fetchData = async (): Promise<IContact> => {
         return {} as IContact;
     }
 };
-
-RootLayout.displayName = 'RootLayout';
 
 export default RootLayout;

@@ -1,5 +1,5 @@
 import TitleSection from '@/components/TitleSection'
-import { CatalogBox, CatalogSubСategories } from '@/components/Catalog'
+import { CatalogBox, CatalogSubCategories } from '@/components/Catalog'
 import { IBreadcrumb } from '@/models/IBreadcrumb'
 import { ICategories } from '@/models/ICategories'
 import { IFilterCountData, IProdustsList, PropertiesListFilterData } from '@/models/IProduct'
@@ -151,7 +151,7 @@ const ShopCategoryPage = async ({
                 title={info.title + (sales == 'sales' ? ' (' + translations[locale].menu.sales + ')' : '')}
             />
             <article className="section-catalog-page box-content">
-                <CatalogSubСategories locale={locale} categories={categories} />
+                <CatalogSubCategories locale={locale} categories={categories} />
                 <CatalogBox
                     locale={locale}
                     page={page}

@@ -6,7 +6,7 @@ import { AllowedLangs } from '@/constants/lang'
 import { getLangSlug, getNoPhotoLangs } from '@/utils/function'
 import { useLang } from '@/hooks/useLang'
 
-const CatalogСategories = ({
+const CatalogCategories = ({
     categories,
     locale,
 }: {
@@ -54,4 +54,4 @@ const CatalogСategories = ({
     )
 }
 
-export default CatalogСategories
+export default CatalogCategories

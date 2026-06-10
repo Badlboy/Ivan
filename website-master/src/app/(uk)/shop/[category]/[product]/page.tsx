@@ -8,10 +8,11 @@ import { IBreadcrumb } from '@/models/IBreadcrumb'
 import { AllowedLangs } from '@/constants/lang'
 import { getServerSession } from 'next-auth'
 import authConfig from '@/config/auth'
-import { SITE_URL } from '@/http/axiosConfig'
+import { API_URL_IMAGE, SITE_URL } from '@/http/axiosConfig'
 import { Suspense } from 'react'
 import { fetchSEOTitleOrDescription, getLangSlug } from '@/utils/function'
 import GoogleAnaliticProduct from '@/components/GoogleAnaliticProduct'
+import ProductJsonLd from '@/components/ProductJsonLd'
 
 interface IPage {
     product: string
@@ -45,16 +46,32 @@ export async function generateMetadata({ params }: { params: IPage }) {
         }
     }
 
+    const productPath = `/shop/${blogData.category?.slug}/${blogData.slug}`
+    const productImages = blogData.picture?.length
+        ? blogData.picture.map((p) => ({
+              url: p.url.startsWith('http') ? p.url : (API_URL_IMAGE ?? '') + p.url,
+          }))
+        : [{ url: `${SITE_URL}/image/Logo.png` }]
+
     return {
         title: title_seo,
         description: description_seo,
         alternates: {
-            canonical: `${SITE_URL}${getLangSlug(locale)}/shop/${blogData.category?.slug}${blogData.slug}`,
+            canonical: `${SITE_URL}${getLangSlug(locale)}${productPath}`,
             languages: {
-                uk: `${SITE_URL}/shop/${blogData.category?.slug}${blogData.slug}`,
-                ru: `${SITE_URL}/ru/shop/${blogData.category?.slug}${blogData.slug}`,
-                en: `${SITE_URL}/en/shop/${blogData.category?.slug}${blogData.slug}`,
+                uk: `${SITE_URL}${productPath}`,
+                ru: `${SITE_URL}/ru${productPath}`,
+                en: `${SITE_URL}/en${productPath}`,
             }
+        },
+        openGraph: {
+            title: title_seo,
+            description: description_seo,
+            url: `${SITE_URL}${getLangSlug(locale)}${productPath}`,
+            siteName: 'FOOTBALLSHOP',
+            images: productImages,
+            locale: 'uk_UA',
+            type: 'website',
         }
     }
 }
@@ -85,6 +102,10 @@ const ShopProductPage = async ({ searchParams, params }: { searchParams: { color
 
     return (
         <>
+            <ProductJsonLd
+                product={productData}
+                productUrl={`${SITE_URL}/shop/${productData.category?.slug}/${productData.slug}`}
+            />
             <GoogleAnaliticProduct variations={productData.variations} getVariation={productVariation} />
             <Breadcrumb locale={locale} breadcrumbList={breadcrumbList} thisTitle={productData.title} />
             <ProductPage

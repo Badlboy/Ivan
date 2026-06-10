@@ -6,7 +6,7 @@ import Link from 'next/link'
 import React from 'react'
 import Slider from 'react-slick'
 
-const CatalogSubСategories = ({
+const CatalogSubCategories = ({
     categories,
     locale,
 }: {
@@ -102,4 +102,4 @@ const CustomNextArrow = (props: any) => {
     )
 }
 
-export default CatalogSubСategories
+export default CatalogSubCategories

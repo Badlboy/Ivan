@@ -15,18 +15,7 @@ import CookieConsentBanner from '@/components/CookieConsentBanner'
 import GoogleAnaliticHead from '@/components/GoogleAnaliticHead'
 import GoogleAnaliticBody from '@/components/GoogleAnaliticBody'
 import { UtmContextProvider } from '@/contexts/UtmContext'
-
-export async function generateMetadata({
-    params,
-}: {
-    params: { locale: string }
-}) {
-    return {
-        htmlAttributes: {
-            lang: params.locale,
-        },
-    }
-}
+import { SITE_URL } from '@/http/axiosConfig'
 
 const RootLayout = async ({
     children,
@@ -35,47 +24,47 @@ const RootLayout = async ({
     children: React.ReactNode
     params: { locale: AllowedLangs }
 }>) => {
-    const contactSchema = {
-        '@context': 'http://schema.org',
-        '@type': 'Organization',
-        url: 'https://yourwebsite.com',
-        logo: 'https://yourwebsite.com/logo.png',
-        contactPoint: [
-            {
-                '@type': 'ContactPoint',
-                telephone: '+1-800-555-1212',
-                contactType: 'Customer Service',
-                areaServed: 'US',
-                availableLanguage: ['English', 'Spanish'],
-            },
-        ],
-    }
-
     const { locale } = params
-    const session = await getServerSession(authConfig)
-    const contact = await fetchData(locale)
-    const categories = await fetchCategory(locale)
-    const pageBrands = await fetchDataBrands(locale)
 
     if (locale !== 'ru' && locale !== 'en') {
         notFound()
     }
 
+    const [session, contact, categories, pageBrands] = await Promise.all([
+        getServerSession(authConfig),
+        fetchData(locale),
+        fetchCategory(locale),
+        fetchDataBrands(locale),
+    ])
+
+    const siteUrl = SITE_URL || 'https://footballshop.com.ua'
+    const organizationSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        name: 'FOOTBALLSHOP',
+        url: siteUrl,
+        logo: siteUrl + '/image/Logo.png',
+        contactPoint: [
+            {
+                '@type': 'ContactPoint',
+                telephone: '+380687974646',
+                contactType: 'Customer Service',
+                areaServed: 'UA',
+                availableLanguage: ['Ukrainian', 'Russian', 'English'],
+            },
+            {
+                '@type': 'ContactPoint',
+                telephone: '+380937974646',
+                contactType: 'Customer Service',
+                areaServed: 'UA',
+                availableLanguage: ['Ukrainian', 'Russian', 'English'],
+            },
+        ],
+    }
+
     return (
         <html lang={locale}>
             <head>
-                <link
-                    rel="preload"
-                    as="font"
-                    type="font/woff2"
-                    href="/_next/static/media/TTHoves-Regular.cce19915.woff2"
-                />
-                <link
-                    rel="preload"
-                    as="font"
-                    type="font/woff2"
-                    href="/_next/static/media/TTHoves-Medium.4abe38fa.woff2"
-                />
                 <GoogleAnaliticHead />
             </head>
             <body>
@@ -97,7 +86,7 @@ const RootLayout = async ({
                 <script
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{
-                        __html: JSON.stringify(contactSchema),
+                        __html: JSON.stringify(organizationSchema),
                     }}
                 />
                 <CookieConsentBanner locale={locale} />

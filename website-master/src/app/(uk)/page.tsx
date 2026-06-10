@@ -1,6 +1,5 @@
 import { AllowedLangs } from '@/constants/lang'
 import translationsJson from '../../../public/translations/translations.json'
-import { notFound } from 'next/navigation'
 import Main from '@/template/Main/Main'
 import pagesService from '@/services/pagesService'
 import { IMainPage, IMainPageBanner } from '@/models/IPage'
@@ -9,7 +8,6 @@ import { IBrand } from '@/models/IBrand'
 import { getServerSession } from 'next-auth'
 import authConfig from '@/config/auth'
 import { SITE_URL } from '@/http/axiosConfig'
-var fs = require('fs')
 
 export async function generateMetadata() {
     const locale = AllowedLangs.UK
@@ -27,8 +25,16 @@ export async function generateMetadata() {
                 en: SITE_URL + '/en',
             },
         },
-        htmlAttributes: {
-            lang: 'uk',
+        openGraph: {
+            title: pageData.title_seo ?? translationsJson[locale].seo.main.title,
+            description:
+                pageData.description_seo ??
+                translationsJson[locale].seo.main.description,
+            url: SITE_URL + '/',
+            siteName: 'FOOTBALLSHOP',
+            images: [{ url: SITE_URL + '/image/Logo.png' }],
+            locale: 'uk_UA',
+            type: 'website',
         },
     }
 }
@@ -37,31 +43,32 @@ export const revalidate = 60
 
 export default async function Home() {
     const locale = AllowedLangs.UK
-    try {
-        const [pageData, pageBrands, session, banners,pagePromotion] = await Promise.all([
+
+    const [pageData, pageBrands, session, banners, pagePromotion] =
+        await Promise.all([
             fetchData(locale),
             fetchDataBrands(locale),
             getServerSession(authConfig),
             fetchMainBanners(locale),
-            fetchMainSlider(locale)
+            fetchMainSlider(locale),
         ])
-        
-        if (!pageData.id) {
-            notFound()
-        }
-        return (
-            <Main
-                favorites={session?.user?.favorites ?? ([] as number[])}
-                locale={locale}
-                pageData={pageData}
-                pageBrands={pageBrands}
-                banners={banners}
-                pagePromotion={pagePromotion}
-            />
-        )
-    } catch (e) {
-        notFound()
+
+    // Головна сторінка ніколи не повинна віддавати 404: якщо API не
+    // відповів — кидаємо помилку (5xx), щоб Google не деіндексував сайт
+    if (!pageData.id) {
+        throw new Error('Main page data is unavailable')
     }
+
+    return (
+        <Main
+            favorites={session?.user?.favorites ?? ([] as number[])}
+            locale={locale}
+            pageData={pageData}
+            pageBrands={pageBrands}
+            banners={banners}
+            pagePromotion={pagePromotion}
+        />
+    )
 }
 
 const fetchDataBrands = async (locale: AllowedLangs): Promise<IBrand[]> => {
@@ -95,7 +102,6 @@ const fetchMainBanners = async (
     }
     return {} as IMainPageBanner
 }
-
 
 const fetchMainSlider = async (
     locale: AllowedLangs

@@ -1,7 +1,7 @@
 import { getServerSession } from 'next-auth'
 import authConfig from '@/config/auth'
 import TitleSection from '@/components/TitleSection'
-import { CatalogBox, CatalogSubСategories, CatalogСategories } from '@/components/Catalog'
+import { CatalogBox, CatalogSubCategories, CatalogCategories } from '@/components/Catalog'
 import { ICategories } from '@/models/ICategories'
 import { getBrandIds, IFilterCountData, IProdustsList, PropertiesListFilterData } from '@/models/IProduct'
 import categoryService from '@/services/categoryService'
@@ -183,7 +183,7 @@ const ShopCategoryPage = async ({ searchParams, params }: { searchParams: { page
             <TitleSection locale={locale} breadcrumbList={breadcrumbList} title={info.title + (sales == 'sales' ? ' (' + translations[locale].menu.sales + ')' : '')} />
             <article className="section-catalog-page catalog-sub-category">
                 <div className="box-content">
-                    <CatalogSubСategories locale={locale} categories={categories} />
+                    <CatalogSubCategories locale={locale} categories={categories} />
                 </div>
             </article>
             <article className="section-catalog-page box-content">
