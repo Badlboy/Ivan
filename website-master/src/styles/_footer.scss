@@ -1,0 +1,183 @@
+.footer {
+    .top {
+        background: #111111;
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .box-content {
+            display: flex;
+            justify-content: space-between;
+            gap: 80px;
+
+            .right {
+                display: flex;
+                max-width: 310px;
+                flex-direction: column;
+
+                @media (max-width: 1200px) {
+                    max-width: 100%;
+                }
+
+                .footer-title {
+                    margin-bottom: 20px;
+                }
+
+                .footer-link {
+                    margin-bottom: 30px;
+                }
+
+                form {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                }
+            }
+
+            .left {
+                display: flex;
+                flex-direction: column;
+
+                .payments-list {
+                    display: flex;
+                    margin-top: 20px;
+                    gap: 10px;
+                }
+
+                .contact {
+                    margin-top: 37px;
+                    gap: 10px;
+                    display: flex;
+                    flex-direction: column;
+
+                    .footer-title {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+
+            @media (max-width: 1200px) {
+                flex-direction: column;
+                gap: 60px;
+            }
+        }
+    }
+
+    .bottom {
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        .box-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 12px;
+            line-height: 120%;
+            flex-wrap: wrap;
+            gap: 15px;
+
+            & > div {
+                display: flex;
+                gap: 30px;
+            }
+        }
+    }
+
+    &__logo {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+    }
+
+    &-address {
+        font-size: 14px;
+        line-height: 120%;
+        color: #f6f6f6;
+        margin-bottom: 10px;
+        display: flex;
+    }
+
+    &-title {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 120%;
+        text-transform: uppercase;
+        color: #f6f6f6;
+    }
+
+    &-link {
+        font-size: 14px;
+        line-height: 120%;
+        color: #f6f6f6;
+
+        &.footer__menu--link {
+            transition: 0.4s;
+
+            @media (min-width: 768px) {
+                &:hover {
+                    color: #888888;
+                }
+            }
+        }
+    }
+
+    &__menu {
+        display: flex;
+        gap: 30px;
+
+        @media (max-width: 768px) {
+            flex-wrap: wrap;
+        }
+
+        @media (max-width: 600px) {
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        ul {
+            & > *:not(:last-child) {
+                margin-bottom: 10px;
+                display: block;
+            }
+        }
+
+        &--box {
+            display: flex;
+            flex-direction: column;
+
+            ul {
+                padding-top: 20px;
+
+                @media (max-width: 600px) {
+                    display: none;
+                }
+
+                &.loader-footer {
+                    @media (max-width: 600px) {
+                        display: none !important;
+                    }
+                }
+            }
+
+            .footer-title {
+                &.active::after {
+                    transform: rotate(180deg);
+                }
+
+                @media (max-width: 600px) {
+                    padding-bottom: 5px;
+                    border-bottom: 1px solid #f6f6f6;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    cursor: pointer;
+
+                    &::after {
+                        transition: 0.4s;
+                        content: url('data:image/svg+xml,<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 7L10 13L16 7" stroke="white" strokeWidth="1.5"/></svg>');
+                    }
+                }
+            }
+        }
+    }
+}

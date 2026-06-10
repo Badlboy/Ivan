@@ -1,0 +1,9 @@
+.swiper-slider {
+    min-height: 0;
+    min-width: 0;
+
+    .slide {
+        overflow: hidden;
+        height: 100%;
+    }
+}

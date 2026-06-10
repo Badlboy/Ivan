@@ -1,0 +1,1260 @@
+{
+    "uk": {
+        "page": {
+            "aboutus": {
+                "form_text": "Також, у формі ви можете надіслати свій запит чи скаргу і ми розглянемо її найближчим часом.",
+                "form_text2": "або звертайтесь за номером:",
+                "form_input": "Виберіть тип звернення",
+                "send_info": "Заявку надіслано",
+                "form_comment": "Розкажіть чому ви підійдете на дану вакансію",
+                "load_file": "Завантажити файл",
+                "type": "Я звертаюсь з приводу",
+                "type_list": {
+                    "type1": "Зворотній зв'язок",
+                    "type2": "Скарга",
+                    "type3": "Пропозиція"
+                }
+            },
+            "contact": {
+                "address": "Адреса",
+                "phone": "Телефон",
+                "email": "Електронна адреса"
+            },
+            "career": {
+                "title": "Відкриті вакансії:",
+                "title_list": "Виберіть вакансію зі списку",
+                "file_cv": "Завантажити CV"
+            },
+            "search": {
+                "title": "Пошук",
+                "title_name": "Товари по даній назві"
+            },
+            "basket": {
+                "register": "Зареєструватись за допомогою"
+            },
+            "other": {
+                "cost": "Вартість",
+                "time": "Терміни"
+            }
+        },
+        "dropshipping": {
+            "feedbackForm": {
+                "phoneLabel": "Номер телефона",
+                "emailLabel": "Eлектронна пошта",
+                "websiteLabel": "Посилання на сайт",
+                "messagePlaceholder": "Залиште повідомлення тут",
+                "errors": {
+                    "requiredError": "Обов’язкове поле",
+                    "emailFormatError": "Невірний формат електронної пошти",
+                    "webSiteError": "Невірний формат URL",
+                    "phoneNumberFormatError": "Невірний формат номеру телефона"
+                },
+                "submitAction": "Надіслати"
+            }   
+        },
+        "main": {
+            "test_period":"Сайт працює у тестовому режимі",
+            "title": "Футбольний магазин",
+            "title_link": "До каталогу",
+            "title_category": "Популярні категорії",
+            "link_all": "Дивитись всі",
+            "title_new": "Новинки",
+            "title_hit": "Хіти продажів",
+            "product_info": {
+                "title1": "Безкоштовна доставка",
+                "description1": "При замовленні на суму від 3000 гривень доставка Новою поштою по Україні безкоштовна.",
+                "title2": "100% оригінал",
+                "description2": "На підтвердження своїх слів ми можемо надати вам всі необхідні сертифікати якості та документи.",
+                "title3": "Обмін та повернення",
+                "description3": "Ми щиро любимо своїх клієнтів, а тому завжди йдемо на зустріч у питаннях обміну та повернення."
+            },
+            "comments_title": "Нові відгуки наших покупців"
+        },
+        "seo": {
+            "main": {
+                "title": "Футбольний інтернет-магазин атрибутики FOOTBALLSHOP ⚽ Товари для футболу в Києві та Україні",
+                "description": "Футбольний магазин FOOTBALLSHOP ➤ Інтернет-магазин товарів для футболу №1 в Україні ☎️ (068) 797-46-46 ☎️ (093) 797-46-46 🚚 Швидка доставка по всій Україні 🔥 Акції! 💰 Низькі ціни."
+            },
+            "page": {
+                "title": " — FOOTBALLSHOP",
+                "description": " ⭐ Інтернет-магазин товарів для футболу №1 в Україні ☎️ (068) 797-46-46 ☎️ (093) 797-46-46. "
+            },
+            "catalog": {
+                "title": "купити в магазині FOOTBALLSHOP",
+                "description": "по вигідним цінам в ⭐ Інтернет-магазині товарів для футболу №1 в Україні ⭐ (068) 797-46-46 ☎️ (093) 797-46-46."
+            },
+            "product": {
+                "title": "грн в FOOTBALLSHOP",
+                "price": "по ціні",
+                "description": "грн ⭐ Завжди В НАЛІЧІ в каталозі магазину в розділі",
+                "description2": "! 🚚 Швидка доставка по всій Україні 🔥 Акції!"
+            }
+        },
+        "page_name": {
+            "catalog": "Каталог"
+        },
+        "menu": {
+            "contact": "Контакти",
+            "info": "Інформація",
+            "aboutUs": "Про нас",
+            "deliveryPayment": "Доставка та оплата",
+            "dropshippings": "Дропшипінг",
+            "brands": "Бренди",
+            "blogs": "Блог",
+            "career": "Карʼєра",
+            "catalog": "Каталог товарів",
+            "lk": "Особистий кабінет",
+            "wishList": "Список бажань",
+            "profile": "Профіль",
+            "history": "Історія замовлень",
+            "auth": "Увійти",
+            "register": "Реєстрація",
+            "social": "Ми в соцмережах",
+            "offerContract": "Договір оферти",
+            "privacyPolicy": "Політика конфіденційності",
+            "sales": "Знижки",
+            "exchange_return": "Обмін та повернення",
+            "recommend": "Рекомендуємо",
+            "news": "Новинки"
+        },
+        "system": {
+            "footerInfo": "Футбольний інтернет-магазин Footballshop",
+            "workTime": "Графік роботи",
+            "workTimeDay": "Пн-Пт",
+            "workTimeDay2": "Сб",
+            "workTimeDay3": "Нд",
+            "workTimeDay_nowork": "Вихідний",
+            "current": "грн",
+            "expand": "Розгорнути",
+            "expandReset": "Згорнути",
+            "cookie": "Цей веб-сайт використовує файли cookie для покращення користувацького досвіду.",
+            "cookie_btn": "Прийняти",
+            "cookie_more": "Дізнатися більше",
+            "delivery_cost": "За тарифами перевізника"
+        },
+        "errors": {
+            "error": "Помилка!",
+            "required": "Поле обов'язкове",
+            "email": "Email введений не правильно",
+            "phone": "Невірний формат телефону",
+            "last_name": "Призвище не може бути пустим",
+            "name": "Ім'я не може бути пустим",
+            "errorFile": "Max розмір зображення 5 Мб",
+            "old_password": "Старый пароль обязателен",
+            "new_password": "Новый пароль обязателен",
+            "lenght_password": "Пароль должен быть не менее 6 символов",
+            "not_match_password": "Пароли не совпадают",
+            "delivery_method": "Невірний спосіб доставки",
+            "confirmation_password": "Подтверждение пароля обязательно",
+            "delivery_address": "Поле обов'язкове для доставки кур'єром",
+            "department_postomat": "Поле обов'язкове для самовивозу",
+            "search": "Потрібно не менше 3 символів"
+        },
+        "info": {
+            "ifEmail": "Перевірка пошти ...",
+            "ifEmail_sec": "Пошта додана для розсилки",
+            "load": "Завантаження ...",
+            "save": "Збереження ...",
+            "add": "Додавання ...",
+            "delete": "Вилучення ..."
+        },
+        "form": {
+            "email": "Ваша пошта",
+            "email_short": "Email",
+            "name": "Ваше імʼя",
+            "last_name": "Прізвище",
+            "phone": "Телефон",
+            "loadPhoto": "Завантажити фото",
+            "infoLoadPhoto": "Ви завантажили зображення",
+            "save": "Зберегти",
+            "create": "Створити",
+            "edit": "Редагувати",
+            "password": "Пароль",
+            "old_password": "Старий пароль",
+            "new_password": "Введіть новий пароль",
+            "replay_password": "Повторіть новий пароль",
+            "search_filter": "Пошук по брендам",
+            "search_filter_empty": "Бренды не найдены"
+        },
+        "subscriptions": {
+            "title": "Підпишіться на нашу розсилку",
+            "description": "Отримуйте повідомлення про всі вигідні пропозиції – першими!",
+            "send": "Підписатись"
+        },
+        "basket": {
+            "title": "Ваше замовлення",
+            "basketItem": "Товарів в кошику",
+            "empty": "Кошик порожній",
+            "sum": "Сума",
+            "all": "Всього",
+            "btn_all": "Продовжити покупки",
+            "placeOrder": "Оформити замовлення",
+            "load": "Додавання в кошик ...",
+            "insufficient_product": "Не достатньо товару",
+            "add": "Товар додано до кошика",
+            "delete": "Товар видалено",
+            "editLoad": "Зміна кошика ...",
+            "edit": "Товар змінено"
+        },
+        "search": {
+            "input": "Я шукаю",
+            "btn": "Знайти",
+            "all_btn": "Всі результати пошуку"
+        },
+        "breadcrumb": {
+            "back": "Назад",
+            "userLK": "Особистий кабінет",
+            "contact": "Контактні дані",
+            "main": "Головна",
+            "blog": "Блог",
+            "brands": "Бренди",
+            "all_category": "Всі категорії"
+        },
+        "profile": {
+            "empty_favorite": "У вас порожній список бажань",
+            "password_title": "Змінити пароль",
+            "edit": "Профіль змінений",
+            "password": "Пароль змінений",
+            "address": "Адреса змінена",
+            "addAddress": "Адреса додана",
+            "deleteAddress": "Адреса видалена",
+            "address_title": "Збережені адреси",
+            "phone_short": "тел.",
+            "delivery_method": "Способи доставки",
+            "department_postomat": "Відділення / Поштомат",
+            "delivery_address": "Адреса доставки",
+            "history": "Історія замовлень",
+            "wish_list": "Список бажань",
+            "exit": "Вийти",
+            "upload_photo": "Завантажити фото",
+            "edit_photo": "Редагувати фото",
+            "historyBox": {
+                "title": "Мої замовлення",
+                "order": "Замовлення",
+                "inProgress": "У роботі",
+                "shipped": "Відправлено",
+                "received": "Отримано",
+                "return": "Повернення",
+                "cancelled": "Скасовано",
+                "empty": "У вас зараз немає замовлень",
+                "quantity": "шт",
+                "delivery": "Доставка",
+                "all_cost": "До сплати",
+                "delivery_date": "Дата доставки"
+            }
+        },
+        "order": {
+            "payment_title": "Способи оплати",
+            "nova_pochta": "Нова пошта",
+            "delivery_method_pickup": "Нова пошта (Самовивіз)",
+            "delivery_method_courier": "Нова пошта (Курʼєр)",
+            "promcod_not": "Промокод не знайдено",
+            "promcod_input": "Введіть промокод",
+            "create_load": "Створення замовлення ...",
+            "create_success": "Замовлення створене",
+            "success_title": "Замовлення прийнято!",
+            "success_text": "Наш менеджер звʼяжеться з вами найближчим часом.",
+            "main_link": "На головну",
+            "basket": {
+                "title_contact": "Контактна інформація",
+                "name_last_name": "Імʼя та прізвище",
+                "email": "Електронна пошта",
+                "phone": "Телефон",
+                "btn_edit": "Редагувати контактну інформацію",
+                "new_buyer": "Я новий покупець",
+                "btn_register": "Я зареєстрований",
+                "btn_save": "Зберегти",
+                "deliver": {
+                    "title": "Способи доставки",
+                    "btn_edit": "Змінити адресу доставки",
+                    "tarif": "За тарифами перевізника",
+                    "nova_pochta": {
+                        "city": "Введіть місто",
+                        "poshotomat": "Виберіть відділення Нової Пошти"
+                    }
+                }
+            },
+            "other": {
+                "comment_title": "Залишити коментар",
+                "comment_placeholder": "Коментар до замовлення",
+                "order_user_title": "Ваше замовлення",
+                "you_save": "Ви економите",
+                "promcod": "Промокод",
+                "promcod_send": "Застосувати",
+                "phone_me": "Мені можна не телефонувати для підтвердження замовлення",
+                "politic_1": "Підтверджуючи замовлення, я приймаю умови",
+                "politic_2": "угоди користувача",
+                "send_order": "Оформити замовлення",
+                "empty": "Кошик порожній"
+            },
+            "payments": {
+                "cash": "Оплата під час отримання товару (Накладний платіж Нової Пошти)",
+                "iban": "На розрахунковий рахунок"
+            },
+            "error_fields": "Поля не всі заповнені"
+        },
+        "blog": {
+            "empty": "Блоги не знайдено",
+            "read": "Читати статтю",
+            "author": "Автор",
+            "last": "Останні статті"
+        },
+        "catalog": {
+            "filter": "Фільтр",
+            "product_count": "Товарів",
+            "empty": "Товар не знайдено",
+            "pagintaion": {
+                "show": "Показано",
+                "product": "товарів з",
+                "load_more": "Показати ще",
+                "prev": "Попередня",
+                "next": "Наступна"
+            },
+            "sort": {
+                "sort_active": "Сортувати за",
+                "popular": "Популярністю",
+                "price_asc": "Ціна збільшення",
+                "price_desc": "Ціна зменшення",
+                "title": "Сортувати за алфавітом",
+                "newest": "За новизною"
+            },
+            "filterBox": {
+                "delete_all": "Скинути все",
+                "clear_all": "Очистити все",
+                "rating": "Оцінка",
+                "back": "Назад",
+                "star5": "5 зірочок і вище",
+                "star4": "4 зірочки і вище",
+                "star3": "3 зірочки і вище",
+                "star2": "2 зірочки і вище",
+                "star1": "1 зірочка і вище",
+                "abort_filter": "Скасувати фільтри",
+                "send_filter": "Застосувати фільтр",
+                "all_product": "Показати всі товари",
+                "use_filter": "Застосувати фільтр"
+            }
+        },
+        "product": {
+            "title_like": "Вам може сподобатись",
+            "method_delivery": "Методи доставки",
+            "obmin": "Обмін та повернення",
+            "delivery_speed": "Відправка сьогодні",
+            "delivery": "Відправка 1-3 дні",
+            "not_available": "Немає в наявності",
+            "code": "Код",
+            "article": "Артикул",
+            "add_basket": "До кошику",
+            "buy_one_click": "Купити в 1 клік",
+            "empty_variaiton": "Повідомити про появу",
+            "favorite": {
+                "addLoad": "Додавання в список бажань ...",
+                "deleteLoad": "Видалення з списока бажань ...",
+                "add": "Товар доданий до списока бажань",
+                "delete": "Товар видалено з списока бажань"
+            },
+            "description": "Опис",
+            "characteristics": "Характеристики",
+            "reviews": "Відгуки",
+            "add_reviews": "Залишити відгук",
+            "is_top_sale": "Топ продажів",
+            "is_new": "Новинка",
+            "reviews_empty": "Відгуків ще немає. Залиште перший.",
+            "reviewsForm": {
+                "title": "Залишити відгук",
+                "rating": "Ваша оцінка",
+                "comment": "Ви можете залишити свій відгук",
+                "placeholder": "Залиште відгук тут",
+                "btn": "Залишити відгук",
+                "form": {
+                    "info": "Дякуємо за відгук",
+                    "error": {
+                        "rating": "Невірне значення"
+                    }
+                }
+            },
+            "oneClick": {
+                "title": "Купити в 1 клік",
+                "send": "Замовити",
+                "cancel": "Скасувати",
+                "info": "Дякуємо за оформлення замовлення в 1 клік"
+            },
+            "emptyProduct": {
+                "title": "Сповістити про появу",
+                "btn": "Сповістити",
+                "info": "Ми вам повідомимо, як буде товар"
+            },
+            "size": {
+                "title": "Довідник розмірів",
+                "breadcrumb": "Таблиця розмірів",
+                "clothing": "Одяг"
+            }
+        },
+        "brands": {
+            "all": "Всі",
+            "search_brands": "Пошук по брендам",
+            "empty": "Бренди не знайдено"
+        },
+        "pages": {
+            "auth": {
+                "login": "Увійти",
+                "remember": "Запамʼятати мене",
+                "forgot_password": "Забули пароль?",
+                "send": "Надіслати"
+            },
+            "register": {
+                "info": "Реєструючись, ви погоджуєтеся з",
+                "info2": "угодою користувача",
+                "info3": "Ви вже зареєстровані?",
+                "info4": "Зареєструватися",
+                "isVerifySuccess": "Обліковий запис Підтверджено. Можете авторизуватись на сайті",
+                "isVerifyError": "Помилка підтвердження облікового запису",
+                "isVerifyLoad": "На пошту надіслано посилання для підтвердження облікового запису"
+            },
+            "password": {
+                "title": "Ваш логін",
+                "info_short": "Пароль успішно змінено",
+                "info": "Пароль успішно змінено, тепер входьте до облікового запису під новими доступами",
+                "send": "Посилання для скидання пароля надіслано на вашу електронну пошту"
+            }
+        }
+    },
+    "ru": {
+        "page": {
+            "aboutus": {
+                "form_text": "Также, в форме вы можете отправить свой запрос или жалобу, и мы рассмотрим её в ближайшее время.",
+                "form_text2": "или обращайтесь по номеру:",
+                "form_input": "Выберите тип обращения",
+                "send_info": "Заявка отправлена",
+                "form_comment": "Расскажите, почему вы подходите на данную вакансию",
+                "load_file": "Загрузить файл",
+                "type": "Я обращаюсь по поводу",
+                "type_list": {
+                    "type1": "Обратная связь",
+                    "type2": "Жалоба",
+                    "type3": "Предложение"
+                }
+            },
+            "contact": {
+                "address": "Адрес",
+                "phone": "Телефон",
+                "email": "Электронная почта"
+            },
+            "career": {
+                "title": "Открытые вакансии:",
+                "title_list": "Выберите вакансию из списка",
+                "file_cv": "Загрузить резюме"
+            },
+            "search": {
+                "title": "Поиск",
+                "title_name": "Товары по данному названию"
+            },
+            "basket": {
+                "register": "Зарегистрироваться с помощью"
+            },
+            "other": {
+                "cost": "Стоимость",
+                "time": "Сроки"
+            }
+        },
+        "dropshipping": {
+            "feedbackForm": {
+                "phoneLabel": "Номер телефона",
+                "emailLabel": "Електронная почта",
+                "websiteLabel": "Ссылка на сайт",
+                "messagePlaceholder": "Оставьте сообщение тут",
+                "errors": {
+                    "requiredError": "Обязательное поле",
+                    "emailFormatError": "Некоректный формат електронной почты",
+                    "webSiteError": "Некоректный формат URL",
+                    "phoneNumberFormatError": "Некоректный формат номера телефона"
+                },
+                "submitAction": "Отправить"
+            }   
+        },
+        "main": {
+            "test_period":"Сайт работает в тестовом режиме",
+            "title": "Футбольный магазин",
+            "title_link": "К каталогу",
+            "title_category": "Популярные категории",
+            "link_all": "Смотреть все",
+            "title_new": "Новинки",
+            "title_hit": "Хиты продаж",
+            "product_info": {
+                "title1": "Бесплатная доставка",
+                "description1": "При заказе на сумму от 3000 гривен доставка Новой почтой по Украине бесплатна.",
+                "title2": "100% оригинал",
+                "description2": "В подтверждение своих слов мы можем предоставить вам все необходимые сертификаты качества и документы.",
+                "title3": "Обмен и возврат",
+                "description3": "Мы искренне любим своих клиентов, поэтому всегда идем навстречу в вопросах обмена и возврата."
+            },
+            "comments_title": "Новые отзывы наших покупателей"
+        },
+        "seo": {
+            "main": {
+                "title": "Футбольный интернет-магазин атрибутики FOOTBALLSHOP ⚽ Товары для футбола в Киеве и Украине",
+                "description": "Футбольный магазин FOOTBALLSHOP ➤ Интернет магазин товаров для футбола №1 в Украине ☎️ (068) 797-46-46 ☎️ (093) 797-46-46 🚚 Быстрая доставка по всей Украине 🔥 Акции! 💰 Низкие цены."
+            },
+            "page": {
+                "title": " — FOOTBALLSHOP",
+                "description": " ⭐ Интернет магазин товаров для футбола №1 в Украине ☎️ (068) 797-46-46 ☎️ (093) 797-46-46. "
+            },
+            "catalog": {
+                "title": "купить в магазине FOOTBALLSHOP",
+                "description": "по выгодным ценам в ⭐ Интернет магазине товаров для футбола №1 в Украине ⭐ (068) 797-46-46 ☎️ (093) 797-46-46."
+            },
+            "product": {
+                "title": "грн в FOOTBALLSHOP",
+                "price": "по цене",
+                "description": "грн ⭐ Всегда В НАЛИЧИИ в каталоге магазина в разделе",
+                "description2": "! 🚚 Быстрая доставка по всей Украине 🔥 Акции!"
+            }
+        },
+        "page_name": {
+            "catalog": "Каталог"
+        },
+        "menu": {
+            "contact": "Контакты",
+            "info": "Информация",
+            "aboutUs": "О нас",
+            "deliveryPayment": "Доставка и оплата",
+            "dropshippings": "Дропшиппинг",
+            "brands": "Бренды",
+            "blogs": "Блог",
+            "career": "Карьера",
+            "catalog": "Каталог товаров",
+            "lk": "Личный кабинет",
+            "wishList": "Список желаний",
+            "profile": "Профиль",
+            "history": "История заказов",
+            "auth": "Войти",
+            "register": "Регистрация",
+            "social": "Мы в соцсетях",
+            "offerContract": "Договор оферты",
+            "privacyPolicy": "Политика конфиденциальности",
+            "sales": "Скидки",
+            "exchange_return": "Обмен и возврат",
+            "recommend": "Рекомендуем",
+            "news": "Новинки"
+        },
+        "system": {
+            "footerInfo": "Футбольный интернет-магазин Footballshop",
+            "workTime": "График работы",
+            "workTimeDay": "Пн-Пт",
+            "workTimeDay2": "Сб",
+            "workTimeDay3": "Вс",
+            "workTimeDay_nowork": "Выходной",
+            "current": "грн",
+            "expand": "Развернуть",
+            "expandReset": "Свернуть",
+            "cookie": "Этот веб-сайт использует файлы cookie для улучшения пользовательского опыта.",
+            "cookie_btn": "Принять",
+            "cookie_more": "Узнать больше",
+            "delivery_cost": "По тарифам перевозчика"
+        },
+        "errors": {
+            "error": "Ошибка!",
+            "required": "Поле обязательно",
+            "email": "Email введен неправильно",
+            "phone": "Неверный формат телефона",
+            "last_name": "Фамилия не может быть пустой",
+            "name": "Имя не может быть пустым",
+            "errorFile": "Макс. размер изображения 5 Мб",
+            "old_password": "Старый пароль обязателен",
+            "new_password": "Новый пароль обязателен",
+            "lenght_password": "Пароль должен быть не менее 6 символов",
+            "not_match_password": "Пароли не совпадают",
+            "delivery_method": "Неверный способ доставки",
+            "confirmation_password": "Подтверждение пароля обязательно",
+            "delivery_address": "Поле обязательно для доставки курьером",
+            "department_postomat": "Поле обязательно для самовывоза",
+            "search": "Нужно не менее 3 символов"
+        },
+        "info": {
+            "ifEmail": "Проверка почты...",
+            "ifEmail_sec": "Почта добавлена для рассылки",
+            "load": "Загрузка...",
+            "save": "Сохранение...",
+            "add": "Добавление...",
+            "delete": "Удаление..."
+        },
+        "form": {
+            "email": "Ваш email",
+            "email_short": "Email",
+            "name": "Ваше имя",
+            "last_name": "Фамилия",
+            "phone": "Телефон",
+            "loadPhoto": "Загрузить фото",
+            "infoLoadPhoto": "Вы загрузили изображение",
+            "save": "Сохранить",
+            "create": "Создать",
+            "edit": "Редактировать",
+            "password": "Пароль",
+            "old_password": "Старый пароль",
+            "new_password": "Введите новый пароль",
+            "replay_password": "Повторите новый пароль",
+            "search_filter": "Поиск по брендам",
+            "search_filter_empty": "Бренды не найдены"
+        },
+        "subscriptions": {
+            "title": "Подпишитесь на нашу рассылку",
+            "description": "Получайте уведомления о всех выгодных предложениях – первыми!",
+            "send": "Подписаться"
+        },
+        "basket": {
+            "title": "Ваша корзина",
+            "basketItem": "Товаров в корзине",
+            "empty": "Корзина пуста",
+            "sum": "Сумма",
+            "all": "Всего",
+            "btn_all": "Продолжить покупки",
+            "placeOrder": "Оформить заказ",
+            "load": "Добавление в корзину ...",
+            "insufficient_product": "Недостаточно товара",
+            "add": "Товар добавлен в корзину",
+            "delete": "Товар удален",
+            "editLoad": "Изменение корзины ...",
+            "edit": "Товар изменен"
+        },
+        "search": {
+            "input": "Я ищу",
+            "btn": "Найти",
+            "all_btn": "Все результаты поиска"
+        },
+        "breadcrumb": {
+            "back": "Назад",
+            "userLK": "Личный кабинет",
+            "contact": "Контактные данные",
+            "main": "Главная",
+            "blog": "Блог",
+            "brands": "Бренды",
+            "all_category": "Все категории"
+        },
+        "profile": {
+            "empty_favorite": "У вас пустой список желаемого",
+            "password_title": "Изменить пароль",
+            "edit": "Профиль изменен",
+            "password": "Пароль изменен",
+            "address": "Адрес изменен",
+            "addAddress": "Адрес добавлен",
+            "deleteAddress": "Адрес удален",
+            "address_title": "Сохраненные адреса",
+            "phone_short": "тел.",
+            "delivery_method": "Способы доставки",
+            "department_postomat": "Отделение / Почтомат",
+            "delivery_address": "Адрес доставки",
+            "history": "История заказов",
+            "wish_list": "Список желаний",
+            "exit": "Выйти",
+            "upload_photo": "Загрузить фото",
+            "edit_photo": "Редактировать фото",
+            "historyBox": {
+                "title": "Мои заказы",
+                "order": "Заказ",
+                "inProgress": "В работе",
+                "shipped": "Отправлено",
+                "received": "Получено",
+                "return": "Возврат",
+                "cancelled": "Отменено",
+                "empty": "У вас сейчас нет заказов",
+                "quantity": "шт",
+                "delivery": "Доставка",
+                "all_cost": "К оплате",
+                "delivery_date": "Дата доставки"
+            }
+        },
+        "order": {
+            "payment_title": "Способы оплаты",
+            "nova_pochta": "Новая почта",
+            "delivery_method_pickup": "Новая почта (Самовывоз)",
+            "delivery_method_courier": "Новая почта (Курьер)",
+            "promcod_not": "Промокод не найден",
+            "promcod_input": "Введите промокод",
+            "create_load": "Создание заказа ...",
+            "create_success": "Заказ создан",
+            "success_title": "Заказ принят!",
+            "success_text": "Наш менеджер свяжется с вами в ближайшее время.",
+            "main_link": "На главную",
+            "basket": {
+                "title_contact": "Контактная информация",
+                "name_last_name": "Имя и фамилия",
+                "email": "Электронная почта",
+                "phone": "Телефон",
+                "btn_edit": "Редактировать контактную информацию",
+                "new_buyer": "Я новый покупатель",
+                "btn_register": "Я зарегистрирован",
+                "btn_save": "Сохранить",
+                "deliver": {
+                    "title": "Способы доставки",
+                    "btn_edit": "Изменить адрес доставки",
+                    "tarif": "По тарифам перевозчика",
+                    "nova_pochta": {
+                        "city": "Введите город",
+                        "poshotomat": "Выберите отделение Новой Почты"
+                    }
+                }
+            },
+            "other": {
+                "comment_title": "Оставить комментарий",
+                "comment_placeholder": "Комментарий к заказу",
+                "order_user_title": "Ваш заказ",
+                "you_save": "Вы экономите",
+                "promcod": "Промокод",
+                "promcod_send": "Применить",
+                "phone_me": "Можно не звонить для подтверждения заказа",
+                "politic_1": "Подтверждая заказ, я принимаю условия",
+                "politic_2": "пользовательского соглашения",
+                "send_order": "Оформить заказ",
+                "empty": "Корзина пуста"
+            },
+            "payments": {
+                "cash": "Оплата при получении товара (Наложенный платеж Новой Почты)",
+                "iban": "На расчетный счет"
+            },
+            "error_fields": "Поля заполнены не полностью"
+        },
+        "blog": {
+            "empty": "Блоги не найдены",
+            "read": "Читать статью",
+            "author": "Автор",
+            "last": "Последние статьи"
+        },
+        "catalog": {
+            "filter": "Фильтр",
+            "product_count": "Товаров",
+            "empty": "Товар не найден",
+            "pagintaion": {
+                "show": "Показано",
+                "product": "товаров из",
+                "load_more": "Показать ещё",
+                "prev": "Предыдущая",
+                "next": "Следующая"
+            },
+            "sort": {
+                "sort_active": "Сортировать по",
+                "popular": "Популярности",
+                "price_asc": "Цена по возрастанию",
+                "price_desc": "Цена по убыванию",
+                "title": "По алфавиту",
+                "newest": "По новизне"
+            },
+            "filterBox": {
+                "delete_all": "Сбросить все",
+                "clear_all": "Очистить все",
+                "rating": "Оценка",
+                "back": "Назад",
+                "star5": "5 звезд и выше",
+                "star4": "4 звезды и выше",
+                "star3": "3 звезды и выше",
+                "star2": "2 звезды и выше",
+                "star1": "1 звезда и выше",
+                "abort_filter": "Отменить фильтры",
+                "send_filter": "Применить фильтр",
+                "all_product": "Показать все товары",
+                "use_filter": "Применить фильтр"
+            }
+        },
+        "product": {
+            "title_like": "Вам может понравиться",
+            "method_delivery": "Методы доставки",
+            "obmin": "Обмен и возврат",
+            "delivery_speed": "Отправка сегодня",
+            "delivery": "Отправка 1-3 дня",
+            "not_available": "Нет в наличии",
+            "code": "Код",
+            "article": "Артикул",
+            "add_basket": "В корзину",
+            "buy_one_click": "Купить в 1 клик",
+            "empty_variaiton": "Сообщите о появлении",
+            "favorite": {
+                "addLoad": "Добавление в список желаемого ...",
+                "deleteLoad": "Удаление из списка желаемого ...",
+                "add": "Товар добавлен в список желаемого",
+                "delete": "Товар удалён из списка желаемого"
+            },
+            "description": "Описание",
+            "characteristics": "Характеристики",
+            "reviews": "Отзывы",
+            "add_reviews": "Оставить отзыв",
+            "is_top_sale": "Топ продаж",
+            "is_new": "Новинка",
+            "reviews_empty": "Отзывов еще нет. Оставьте первый.",
+            "reviewsForm": {
+                "title": "Оставить отзыв",
+                "rating": "Ваша оценка",
+                "comment": "Вы можете оставить свой отзыв",
+                "placeholder": "Оставьте отзыв здесь",
+                "btn": "Оставить отзыв",
+                "form": {
+                    "info": "Спасибо за отзыв",
+                    "error": {
+                        "rating": "Неверное значение"
+                    }
+                }
+            },
+            "oneClick": {
+                "title": "Купить в 1 клик",
+                "send": "Заказать",
+                "cancel": "Отменить",
+                "info": "Спасибо за оформление заказа в 1 клик"
+            },
+            "emptyProduct": {
+                "title": "Сообщить о наличии",
+                "btn": "Сообщить",
+                "info": "Мы вам сообщим, когда товар появится"
+            },
+            "size": {
+                "title": "Справочник размеров",
+                "breadcrumb": "Таблица размеров",
+                "clothing": "Одежда"
+            }
+        },
+        "brands": {
+            "all": "Все",
+            "search_brands": "Поиск по брендам",
+            "empty": "Бренды не найдены"
+        },
+        "pages": {
+            "auth": {
+                "login": "Войти",
+                "remember": "Запомнить меня",
+                "forgot_password": "Забыли пароль?",
+                "send": "Отправить"
+            },
+            "register": {
+                "title": "Зареєструватися",
+                "info": "Регистрируясь, вы соглашаетесь с",
+                "info2": "пользовательским соглашением",
+                "info3": "Уже зарегистрированы?",
+                "info4": "Зарегистрироваться",
+                "isVerifySuccess": "Учетная запись подтверждена. Вы можете войти на сайт.",
+                "isVerifyError": "Ошибка подтверждения учетной записи.",
+                "isVerifyLoad": "На почту отправлена ссылка для подтверждения учетной записи."
+            },
+            "password": {
+                "title": "Ваш логин",
+                "info_short": "Пароль успешно изменен",
+                "info": "Пароль успешно изменен, теперь войдите в учетную запись с новыми данными для доступа",
+                "send": "Ссылка для сброса пароля отправлена на вашу электронную почту"
+            }
+        }
+    },
+    "en": {
+        "page": {
+            "aboutus": {
+                "form_text": "Also, in the form you can send your request or complaint, and we will review it soon.",
+                "form_text2": "or contact us at the number:",
+                "form_input": "Select the type of inquiry",
+                "send_info": "Request sent",
+                "form_comment": "Tell us why you are a good fit for this position",
+                "load_file": "Upload file",
+                "type": "I am contacting regarding",
+                "type_list": {
+                    "type1": "Feedback",
+                    "type2": "Complaint",
+                    "type3": "Suggestion"
+                }
+            },
+            "contact": {
+                "address": "Address",
+                "phone": "Phone",
+                "email": "Email"
+            },
+            "career": {
+                "title": "Open positions:",
+                "title_list": "Select a position from the list",
+                "file_cv": "Upload CV"
+            },
+            "search": {
+                "title": "Search",
+                "title_name": "Products by this name"
+            },
+            "basket": {
+                "register": "Register using"
+            },
+            "other": {
+                "cost": "Cost",
+                "time": "Time"
+            }
+        },
+        "dropshipping": {
+            "feedbackForm": {
+                "phoneLabel": "Phone number",
+                "emailLabel": "Email address",
+                "websiteLabel": "Website link",
+                "messagePlaceholder": "Left your comment here",
+                "errors": {
+                    "requiredError": "Required field",
+                    "emailFormatError": "Email is invalid",
+                    "webSiteError": "Website URL is invalid",
+                    "phoneNumberFormatError": "Phone number is invalid"
+                },
+                "submitAction": "Send"
+            }   
+        },
+        "main": {
+            "test_period":"The site is working in test mode",
+            "title": "Football Shop",
+            "title_link": "To the catalog",
+            "title_category": "Popular categories",
+            "link_all": "View all",
+            "title_new": "New arrivals",
+            "title_hit": "Best sellers",
+            "product_info": {
+                "title1": "Free shipping",
+                "description1": "When ordering for more than 3000 UAH, delivery by Nova Poshta across Ukraine is free.",
+                "title2": "100% original",
+                "description2": "To confirm our words, we can provide you with all the necessary quality certificates and documents.",
+                "title3": "Exchange and return",
+                "description3": "We sincerely love our customers, so we always accommodate when it comes to exchanges and returns."
+            },
+            "comments_title": "New reviews from our customers"
+        },
+        "seo": {
+            "main": {
+                "title": "Football Online Store FOOTBALLSHOP ⚽ Football Products in Kyiv and Ukraine",
+                "description": "Football store FOOTBALLSHOP ➤ Online store for football products №1 in Ukraine ☎️ (068) 797-46-46 ☎️ (093) 797-46-46 🚚 Fast delivery throughout Ukraine 🔥 Promotions! 💰 Low prices."
+            },
+            "page": {
+                "title": " — FOOTBALLSHOP",
+                "description": " ⭐ Online store for football products №1 in Ukraine ☎️ (068) 797-46-46 ☎️ (093) 797-46-46. "
+            },
+            "catalog": {
+                "title": "buy at FOOTBALLSHOP",
+                "description": "at favorable prices in ⭐ Online store for football products №1 in Ukraine ⭐ (068) 797-46-46 ☎️ (093) 797-46-46."
+            },
+            "product": {
+                "title": "UAH at FOOTBALLSHOP",
+                "price": "at price",
+                "description": "UAH ⭐ Always IN STOCK in the store catalog in section",
+                "description2": "! 🚚 Fast delivery throughout Ukraine 🔥 Promotions!"
+            }
+        },
+        "page_name": {
+            "catalog": "Catalog"
+        },
+        "menu": {
+            "contact": "Contacts",
+            "info": "Information",
+            "aboutUs": "About Us",
+            "deliveryPayment": "Delivery and Payment",
+            "dropshippings": "Dropshipping",
+            "brands": "Brands",
+            "blogs": "Blog",
+            "career": "Career",
+            "catalog": "Product Catalog",
+            "lk": "Personal Account",
+            "wishList": "Wishlist",
+            "profile": "Profile",
+            "history": "Order History",
+            "auth": "Login",
+            "register": "Register",
+            "social": "Follow Us",
+            "offerContract": "Offer Agreement",
+            "privacyPolicy": "Privacy Policy",
+            "sales": "Sales",
+            "exchange_return": "Exchange and return",
+            "recommend": "We recommend",
+            "news": "New arrivals"
+        },
+        "system": {
+            "footerInfo": "Football online store Footballshop",
+            "workTime": "Working Hours",
+            "workTimeDay": "Mon-Fri",
+            "workTimeDay2": "Sat",
+            "workTimeDay3": "Sun",
+            "workTimeDay_nowork": "Day off",
+            "current": "UAH",
+            "expand": "Expand",
+            "expandReset": "Collapse",
+            "cookie": "This website uses cookies to enhance the user experience.",
+            "cookie_btn": "Accept",
+            "cookie_more": "Learn more",
+            "delivery_cost": "According to the carrier's rates"
+        },
+        "errors": {
+            "error": "Error!",
+            "required": "Field is required",
+            "email": "Email is incorrect",
+            "phone": "Invalid phone format",
+            "last_name": "Last name cannot be empty",
+            "name": "Name cannot be empty",
+            "errorFile": "Max image size is 5 MB",
+            "old_password": "Old password is required",
+            "new_password": "New password is required",
+            "lenght_password": "Password must be at least 6 characters",
+            "not_match_password": "Passwords do not match",
+            "delivery_method": "Invalid delivery method",
+            "confirmation_password": "Password confirmation is required",
+            "delivery_address": "Field is required for courier delivery",
+            "department_postomat": "Field is required for pickup",
+            "search": "At least 3 characters required"
+        },
+        "info": {
+            "ifEmail": "Checking email...",
+            "ifEmail_sec": "Email added to the mailing list",
+            "load": "Loading...",
+            "save": "Saving...",
+            "add": "Adding...",
+            "delete": "Deleting..."
+        },
+        "form": {
+            "email": "Your email",
+            "email_short": "Email",
+            "name": "Your name",
+            "last_name": "Last name",
+            "phone": "Phone",
+            "loadPhoto": "Upload photo",
+            "infoLoadPhoto": "You have uploaded an image",
+            "save": "Save",
+            "create": "Create",
+            "edit": "Edit",
+            "password": "Password",
+            "old_password": "Old password",
+            "new_password": "Enter a new password",
+            "replay_password": "Repeat new password",
+            "search_filter": "Search by brands",
+            "search_filter_empty": "No brands found"
+        },
+        "subscriptions": {
+            "title": "Subscribe to our newsletter",
+            "description": "Be the first to receive notifications about all the best offers!",
+            "send": "Subscribe"
+        },
+        "basket": {
+            "title": "Your Order",
+            "basketItem": "Items in Basket",
+            "empty": "Basket is Empty",
+            "sum": "Total",
+            "all": "All",
+            "btn_all": "Continue Shopping",
+            "placeOrder": "Place Order",
+            "load": "Adding to Basket ...",
+            "insufficient_product": "Insufficient Product",
+            "add": "Item Added to Basket",
+            "delete": "Item Deleted",
+            "editLoad": "Editing Basket ...",
+            "edit": "Item Edited"
+        },
+        "search": {
+            "input": "I am looking for",
+            "btn": "Search",
+            "all_btn": "All search results"
+        },
+        "breadcrumb": {
+            "back": "Back",
+            "userLK": "Personal Account",
+            "contact": "Contact Information",
+            "main": "Home",
+            "blog": "Blog",
+            "brands": "Brands",
+            "all_category": "All categories"
+        },
+        "profile": {
+            "empty_favorite": "You have an empty wishlist",
+            "password_title": "Change Password",
+            "edit": "Profile updated",
+            "password": "Password changed",
+            "address": "Address changed",
+            "addAddress": "Address added",
+            "deleteAddress": "The address has been deleted",
+            "address_title": "Saved Addresses",
+            "phone_short": "tel.",
+            "delivery_method": "Delivery Methods",
+            "department_postomat": "Department / Postomat",
+            "delivery_address": "Delivery Address",
+            "history": "Order History",
+            "wish_list": "Wishlist",
+            "exit": "Logout",
+            "upload_photo": "Upload photo",
+            "edit_photo": "Edit photo",
+            "historyBox": {
+                "title": "My Orders",
+                "order": "Order",
+                "inProgress": "In Progress",
+                "shipped": "Shipped",
+                "received": "Received",
+                "return": "Return",
+                "cancelled": "Cancelled",
+                "empty": "You currently have no orders",
+                "quantity": "pcs",
+                "delivery": "Delivery",
+                "all_cost": "Total Due",
+                "delivery_date": "Delivery Date"
+            }
+        },
+        "order": {
+            "payment_title": "Payment Methods",
+            "nova_pochta": "Nova Poshta",
+            "delivery_method_pickup": "Nova Poshta (Pickup)",
+            "delivery_method_courier": "Nova Poshta (Courier)",
+            "promcod_not": "Promo Code Not Found",
+            "promcod_input": "Enter Promo Code",
+            "create_load": "Creating Order ...",
+            "create_success": "Order Created",
+            "success_title": "Order Accepted!",
+            "success_text": "Our manager will contact you soon.",
+            "main_link": "Go to Homepage",
+            "basket": {
+                "title_contact": "Contact Information",
+                "name_last_name": "First and Last Name",
+                "email": "Email",
+                "phone": "Phone",
+                "btn_edit": "Edit Contact Information",
+                "new_buyer": "I am a New Buyer",
+                "btn_register": "I am Registered",
+                "btn_save": "Save",
+                "deliver": {
+                    "title": "Delivery Methods",
+                    "btn_edit": "Change Delivery Address",
+                    "tarif": "According to the Carrier's Rates",
+                    "nova_pochta": {
+                        "city": "Enter City",
+                        "poshotomat": "Select Nova Poshta Branch"
+                    }
+                }
+            },
+            "other": {
+                "comment_title": "Leave a comment",
+                "comment_placeholder": "Comment on the order",
+                "order_user_title": "Your order",
+                "you_save": "You save",
+                "promcod": "Promo code",
+                "promcod_send": "Apply",
+                "phone_me": "No phone call required to confirm the order",
+                "politic_1": "By confirming the order, I accept the",
+                "politic_2": "user agreement",
+                "send_order": "Place order",
+                "empty": "Cart is empty"
+            },
+            "payments": {
+                "cash": "Payment upon receipt of the goods (Cash on Delivery via Nova Poshta)",
+                "iban": "To the bank account"
+            },
+            "error_fields": "Fields are not fully filled out"
+        },
+        "blog": {
+            "empty": "Blogs not found",
+            "read": "Read article",
+            "author": "Author",
+            "last": "Latest articles"
+        },
+        "catalog": {
+            "filter": "Filter",
+            "product_count": "Products",
+            "empty": "No products found",
+            "pagintaion": {
+                "show": "Showing",
+                "product": "products out of",
+                "load_more": "Load more",
+                "prev": "Previous",
+                "next": "Next"
+            },
+            "sort": {
+                "sort_active": "Sort by",
+                "popular": "Popularity",
+                "price_asc": "Price Ascending",
+                "price_desc": "Price Descending",
+                "title": "Alphabetically",
+                "newest": "By Newness"
+            },
+            "filterBox": {
+                "delete_all": "Reset All",
+                "clear_all": "Clear All",
+                "rating": "Rating",
+                "back": "Back",
+                "star5": "5 stars and up",
+                "star4": "4 stars and up",
+                "star3": "3 stars and up",
+                "star2": "2 stars and up",
+                "star1": "1 star and up",
+                "abort_filter": "Cancel Filters",
+                "send_filter": "Apply Filter",
+                "all_product": "Show All Products",
+                "use_filter": "Apply Filter"
+            }
+        },
+        "product": {
+            "title_like": "You may like",
+            "method_delivery": "Delivery Methods",
+            "obmin": "Exchange and Return",
+            "delivery_speed": "Shipping today",
+            "delivery": "Dispatch 1-3 days",
+            "not_available": "Out of stock",
+            "code": "Code",
+            "article": "SKU",
+            "add_basket": "Add to basket",
+            "buy_one_click": "Buy in 1 click",
+            "empty_variaiton": "Notify when available",
+            "favorite": {
+                "addLoad": "Adding to wishlist ...",
+                "deleteLoad": "Removing from wishlist ...",
+                "add": "Product added to wishlist",
+                "delete": "Product removed from wishlist"
+            },
+            "description": "Description",
+            "characteristics": "Specifications",
+            "reviews": "Reviews",
+            "add_reviews": "Leave a review",
+            "is_top_sale": "Top Sales",
+            "is_new": "New Arrival",
+            "reviews_empty": "No reviews yet. Be the first to leave one.",
+            "reviewsForm": {
+                "title": "Leave a review",
+                "rating": "Your rating",
+                "comment": "You can leave your review",
+                "placeholder": "Leave a review here",
+                "btn": "Leave a review",
+                "form": {
+                    "info": "Thank you for your feedback",
+                    "error": {
+                        "rating": "Невірне значення"
+                    }
+                }
+            },
+            "oneClick": {
+                "title": "Buy in 1 click",
+                "send": "Order",
+                "cancel": "Cancel",
+                "info": "Thank you for placing an order in 1 click"
+            },
+            "emptyProduct": {
+                "title": "Notify when available",
+                "btn": "Notify",
+                "info": "We will notify you when the product is available"
+            },
+            "size": {
+                "title": "Size Guide",
+                "breadcrumb": "Size Chart",
+                "clothing": "Clothing"
+            }
+        },
+        "brands": {
+            "all": "All",
+            "search_brands": "Search by brands",
+            "empty": "Brands not found"
+        },
+        "pages": {
+            "auth": {
+                "login": "Login",
+                "remember": "Remember me",
+                "forgot_password": "Forgot password?",
+                "send": "Send"
+            },
+            "register": {
+                "info": "By registering, you agree to the",
+                "info2": "user agreement",
+                "info3": "Already registered?",
+                "info4": "Register",
+                "isVerifySuccess": "Account verified. You can now log in to the site.",
+                "isVerifyError": "Account verification error.",
+                "isVerifyLoad": "A verification link has been sent to your email."
+            },
+            "password": {
+                "title": "Your login",
+                "info_short": "Password successfully changed",
+                "info": "Password successfully changed. You can now log in to your account with the new credentials.",
+                "send": "A password reset link has been sent to your email"
+            }
+        }
+    }
+}

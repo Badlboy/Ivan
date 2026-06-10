@@ -1,0 +1,1 @@
+export const UTM_MARKERS = 'utm_markers'
